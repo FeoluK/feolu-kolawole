@@ -37,34 +37,34 @@ export default function Header() {
     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       isScrolled ? 'bg-black/90 backdrop-blur border-b border-gray-800' : 'bg-transparent'
     }`}>
-      <nav className="container mx-auto px-6 py-6">
+      <nav className="container mx-auto px-6 py-6 relative"> {/* Added relative for absolute positioning of mobile menu */}
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-xl font-medium text-white">
+          <div className="text-xl font-medium text-white z-20"> {/* Added z-20 to ensure logo is above mobile menu */}
             FK
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-12">
-            <button 
+            <button
               onClick={handleHomeClick}
               className="text-gray-400 hover:text-white transition-colors cursor-pointer"
             >
               Home
             </button>
-            <a 
+            <a
               href="/projects"
               className="text-gray-400 hover:text-white transition-colors cursor-pointer"
             >
               Projects
             </a>
-            <a 
+            <a
               href="/work"
               className="text-gray-400 hover:text-white transition-colors cursor-pointer"
             >
               Work
             </a>
-            <a 
+            <a
               href="/contact"
               className="text-gray-400 hover:text-white transition-colors cursor-pointer"
             >
@@ -75,7 +75,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-gray-400 hover:text-white transition-colors"
+            className="md:hidden text-gray-400 hover:text-white transition-colors z-20" // Added z-20 for button
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isMobileMenuOpen ? (
@@ -89,27 +89,27 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden mt-6 py-6 border-t border-gray-800">
-            <div className="flex flex-col space-y-6">
-              <button 
+          <div className="md:hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur border-b border-gray-800 py-6 z-10"> {/* Changed position to absolute, added bg and z-index */}
+            <div className="container mx-auto px-6 flex flex-col space-y-6"> {/* Added container and px for consistent padding */}
+              <button
                 onClick={handleHomeClick}
                 className="text-gray-400 hover:text-white transition-colors text-left cursor-pointer"
               >
                 Home
               </button>
-              <a 
+              <a
                 href="/projects"
                 className="text-gray-400 hover:text-white transition-colors text-left cursor-pointer"
               >
                 Projects
               </a>
-              <a 
+              <a
                 href="/work"
                 className="text-gray-400 hover:text-white transition-colors text-left cursor-pointer"
               >
                 Work
               </a>
-              <a 
+              <a
                 href="/contact"
                 className="text-gray-400 hover:text-white transition-colors text-left cursor-pointer"
               >
