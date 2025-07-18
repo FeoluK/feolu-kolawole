@@ -38,9 +38,17 @@ export default function CurrentWork() {
           
           {/* Section Header */}
           <div className="mb-20">
-            <h2 className="text-4xl md:text-5xl font-light mb-6">
-              Current Work
-            </h2>
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-4xl md:text-5xl font-light">
+                Current Work
+              </h2>
+              <a 
+                href="/work"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
+              >
+                See all positions/affiliations →
+              </a>
+            </div>
             <p className="text-xl text-gray-400 max-w-2xl">
               Research and leadership roles in spatial computing, AI systems, and Extended Reality.
             </p>
