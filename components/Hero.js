@@ -40,7 +40,7 @@ export default function Hero() {
             
             <div className="space-y-4">
               <p className="text-xl text-gray-300">
-                AI, XR, CV, and Spatial Computing Engineer
+                AI, XR, CV, and Spatial Computing Software Engineer
               </p>
               <p className="text-lg text-gray-400 max-w-2xl leading-relaxed">
                 Specializing in AI, 3D systems, and Extended Reality. 
