@@ -9,12 +9,40 @@ export default function ProjectsPage() {
 
   const highlightedProjects = [
     {
+      title: "Accelerated MRI Reconstruction with SwinUNet",
+      description: "Transformer-based deep learning architecture for medical imaging that enables faster MRI scans by reconstructing high-quality knee MRI images from undersampled data. Achieved 33.1 dB PSNR and 0.72 SSIM on fastMRI dataset, outperforming baseline U-Net by ~4 dB in PSNR.",
+      year: "2024",
+      role: "Deep Learning Research",
+      technologies: ["Python", "PyTorch", "Deep Learning", "Computer Vision", "Medical Imaging"],
+      github: "https://github.com/FeoluK/fastmri-reconstruction",
+      paper: "/Accelerated_MRI_Reconstruction.pdf",
+      featured: true
+    },
+    {
       title: "MIT Reality Hack - Healing Heroes",
       description: "Award-winning VR healthcare simulation developed for Apple Vision Pro. Features immersive CPR and first aid training with real-time performance analytics and haptic feedback systems.",
       year: "2024",
       role: "MIT Winner",
       technologies: ["Swift", "RealityKit", "Apple Vision Pro", "3D Modeling"],
       github: "https://github.com/FeoluK/Health-Heroes",
+      featured: true
+    },
+    {
+      title: "Supreme Court Case Outcome Prediction",
+      description: "Bayesian network model for predicting Supreme Court case dispositions based on observable case attributes. Implemented rejection sampling for inference, achieving 73% Top-3 accuracy among 11 possible outcomes through probabilistic modeling.",
+      year: "2025",
+      role: "Stanford CS109 Winner",
+      technologies: ["Python", "Numpy", "Pandas", "Bayesian Networks", "Probabilistic Modeling"],
+      paper: "/Court_Justice_Prediction.pdf",
+      featured: true
+    },
+    {
+      title: "Music Recommendation System Using SVD",
+      description: "Novel music recommendation system utilizing Singular Value Decomposition and dimensionality reduction of Spotify audio features. Implements feature projection to identify non-obvious musical similarities, focusing on sound qualities over conventional genre classifications.",
+      year: "2025", 
+      role: "Machine Learning Project",
+      technologies: ["Python", "SVD", "Dimensionality Reduction", "PCA", "Feature Engineering"],
+      paper: "/Music_Recommendation_Engine.pdf",
       featured: true
     },
     {
@@ -144,15 +172,29 @@ export default function ProjectsPage() {
                             ))}
                           </div>
 
-                          {/* GitHub Link */}
-                          <a 
-                            href={project.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-indigo-400 hover:text-indigo-300 transition-colors cursor-pointer"
-                          >
-                            View on GitHub →
-                          </a>
+                          {/* Links */}
+                          <div className="flex gap-4">
+                            {project.github && (
+                              <a 
+                                href={project.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-indigo-400 hover:text-indigo-300 transition-colors cursor-pointer"
+                              >
+                                View on GitHub →
+                              </a>
+                            )}
+                            {project.paper && (
+                              <a 
+                                href={project.paper}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-indigo-400 hover:text-indigo-300 transition-colors cursor-pointer"
+                              >
+                                View Paper →
+                              </a>
+                            )}
+                          </div>
                         </div>
                         
                         {/* Year */}

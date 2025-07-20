@@ -42,12 +42,22 @@ export default function CurrentWork() {
               <h2 className="text-4xl md:text-5xl font-light">
                 Current Work
               </h2>
-              <a 
-                href="/work"
-                className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
-              >
-                See all positions/affiliations →
-              </a>
+              <div className="flex items-center gap-6">
+                <a 
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
+                >
+                  Resume →
+                </a>
+                <a 
+                  href="/work"
+                  className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
+                >
+                  See all positions/affiliations →
+                </a>
+              </div>
             </div>
             <p className="text-xl text-gray-400 max-w-2xl">
               Research and leadership roles in spatial computing, AI systems, and Extended Reality.
