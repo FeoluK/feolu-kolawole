@@ -44,14 +44,6 @@ export default function CurrentWork() {
               </h2>
               <div className="flex items-center gap-6">
                 <a 
-                  href="/resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
-                >
-                  Resume →
-                </a>
-                <a 
                   href="/work"
                   className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
                 >

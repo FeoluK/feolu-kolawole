@@ -48,14 +48,22 @@ export default function Hero() {
               </p>
             </div>
 
-            {/* Simple CTA */}
-            <div className="pt-8">
+            {/* CTA Buttons */}
+            <div className="pt-8 flex items-center gap-6">
               <button 
                 onClick={() => scrollToSection('projects')}
                 className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
               >
                 View Work →
               </button>
+              <a 
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
+              >
+                Resume →
+              </a>
             </div>
           </div>
         </div>
