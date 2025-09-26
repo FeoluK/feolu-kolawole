@@ -16,7 +16,7 @@ export default function WorkPage() {
       title: "Research Assistant",
       organization: "Human Perception Laboratory",
       location: "Stanford, CA", 
-      period: "January 2025 - Present",
+      period: "December 2024 - Present",
       description: "Developing advanced spatial mapping systems using ORB-SLAM models and NVIDIA Omniverse to create high-fidelity digital twins of perceived environments. Building robust simulation frameworks for data collection and environmental analysis to advance human perception research.",
       technologies: ["ORB-SLAM", "NVIDIA Omniverse", "Digital Twins", "Computer Vision", "Simulation"],
       type: "Research"
@@ -83,7 +83,7 @@ export default function WorkPage() {
                   Work & Experience
                 </h1>
                 <p className="text-xl text-gray-400 max-w-2xl">
-                  Research, leadership, and professional experience in spatial computing, AI, and Extended Reality.
+                  Research, Leadership, and professional experience in Spatial Computing, AI, and Extended Reality.
                 </p>
               </div>
 
