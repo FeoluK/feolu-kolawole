@@ -14,7 +14,7 @@ export default function Hero() {
       className="min-h-screen bg-black text-white flex items-center relative overflow-hidden"
     >
       {/* Headshot (replaces wireframe sphere) */}
-      <div className="absolute top-1/2 right-48 tranform -translate-y-1/2 opacity-90 hidden lg:block">
+      <div className="absolute top-1/2 right-48 transform -translate-y-1/2 opacity-90 hidden lg:block">
         <img
           src="/feolu.jpg"
           alt="Feolu Kolawole"
