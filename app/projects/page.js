@@ -137,7 +137,7 @@ export default function ProjectsPage() {
                   Projects
                 </h1>
                 <p className="text-xl text-gray-400 max-w-2xl">
-                  A collection of projects spanning spatial computing, machine learning, and immersive technologies
+                  A collection of projects spanning spatial computing, machine learning, and immersive technologies.
                 </p>
               </div>
 
