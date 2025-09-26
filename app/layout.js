@@ -21,7 +21,12 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Feolu Kolawole - Spatial Computing Engineer',
     description: 'Specializing in AI, 3D systems, and Extended Reality. Building the future of human-computer interaction at Stanford University.',
-  }
+  },
+  icons: {
+    icon: '/feolu-favicon.png',       // uses the file in /public
+    shortcut: '/feolu-favicon.png',
+    apple: '/feolu-favicon.png',
+  },
 }
 
 export default function RootLayout({ children }) {
