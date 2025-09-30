@@ -34,6 +34,16 @@ export default function ContactPage() {
       )
     },
     {
+      name: "X",
+      value: "x.com/FeoluKolawole",
+      href: "https://x.com/FeoluKolawole",
+      icon: (
+        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2H21.5l-7.36 8.397L22 22h-6.778l-5.3-6.956L4.5 22H1.244l7.793-8.887L2 2h6.928l4.713 6.223L18.244 2z"/>
+        </svg>
+      )
+    },
+    {
       name: "Stanford Profile",
       value: "Stanford University Profile",
       href: "https://profiles.stanford.edu/olufeolu-kolawole",

@@ -1,32 +1,35 @@
 export default function CurrentWork() {
   const currentWork = [
     {
-      title: "Machine Learning and Computer Vision Researcher",
-      organization: "Stanford Artificial Intelligence Laboratory",
-      description: "Developing next-generation computer vision pipelines for 3D human mesh modeling and segmentation. Engineering AI models for 3D character and avatar development via hair type classification, extraction, and generation.",
-      period: "March 2025 - Present",
-      type: "Research"
+      title: "Software Development Engineer (Spectacles Team)",
+      organization: "Snapchat",
+      description:
+        "Lead developer on a flagship augmented reality prototype (AR CAD) for Snapchat Spectacles, guiding a 4-person team to be awarded $20K in funding. Built the first collaborative Spectacles lens for engineers to visualize and share 3D models in real-world environments, cutting prototyping costs by ~40% and accelerating design iteration.",
+      period: "June 2025 - Present",
+      type: "Research",
     },
     {
-      title: "Research Assistant",
-      organization: "Human Perception Laboratory",
-      description: "Developing advanced spatial mapping systems using ORB-SLAM models and NVIDIA Omniverse to create high-fidelity digital twins of perceived environments for simulation and data collection.",
-      period: "January 2025 - Present",
-      type: "Research"
+      title: "Machine Learning and Computer Vision Researcher",
+      organization: "Stanford AI Laboratory (PI - Ron Fedkiw)",
+      description:
+        "Built CNN models to generate realistic 3D hair reconstructions across diverse demographics, raising accuracy to 96% and enabling deployment on lightweight devices. Developed a robust extraction pipeline with OpenCV and SAM segmentation that handles poor-quality images and achieves perfect segmentation on 98% of images.",
+      period: "March 2025 - Present",
+      type: "Research",
     },
     {
       title: "Vice President of External Affairs",
       organization: "Stanford XR",
-      description: "Leading strategic partnerships and external relations. Co-led successful partnerships with Meta, NVIDIA, Amazon, and Snapchat. Organized immersive technology hackathons with 300+ participants in XR and Spatial Computing.",
+      description:
+        "Leading strategic partnerships and external relations. Co-led successful partnerships with Meta, NVIDIA, Amazon, and Snapchat. Organized immersive technology hackathons with 300+ participants in XR and Spatial Computing.",
       period: "September 2024 - Present",
-      type: "Leadership"
-    }
+      type: "Leadership",
+    },
   ]
 
   const getTypeColor = (type) => {
     const colors = {
-      "Research": "text-indigo-400 border-indigo-400/50",
-      "Leadership": "text-purple-400 border-purple-400/50"
+      Research: "text-indigo-400 border-indigo-400/50",
+      Leadership: "text-purple-400 border-purple-400/50",
     }
     return colors[type] || "text-gray-400 border-gray-400/50"
   }
@@ -35,15 +38,12 @@ export default function CurrentWork() {
     <section id="projects" className="py-24 bg-black text-white">
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
-          
           {/* Section Header */}
           <div className="mb-20">
             <div className="flex items-center justify-between mb-6">
-              <h2 className="text-4xl md:text-5xl font-light">
-                Current Work
-              </h2>
+              <h2 className="text-4xl md:text-5xl font-light">Current Work</h2>
               <div className="flex items-center gap-6">
-                <a 
+                <a
                   href="/work"
                   className="text-indigo-400 hover:text-indigo-300 transition-colors text-lg cursor-pointer"
                 >
@@ -64,30 +64,26 @@ export default function CurrentWork() {
                   {/* Content */}
                   <div className="md:col-span-3">
                     <div className="flex items-center gap-4 mb-3">
-                      <h3 className="text-xl font-medium text-white">
-                        {work.title}
-                      </h3>
-                      <span className={`text-sm px-3 py-1 border rounded-none ${getTypeColor(work.type)}`}>
+                      <h3 className="text-xl font-medium text-white">{work.title}</h3>
+                      <span
+                        className={`text-sm px-3 py-1 border rounded-none ${getTypeColor(work.type)}`}
+                      >
                         {work.type}
                       </span>
                     </div>
-                    
+
                     <div className="flex items-center gap-2 mb-4 text-gray-400">
                       <span className="font-medium">{work.organization}</span>
                       <span>•</span>
                       <span>Stanford, CA</span>
                     </div>
-                    
-                    <p className="text-gray-300 leading-relaxed">
-                      {work.description}
-                    </p>
+
+                    <p className="text-gray-300 leading-relaxed">{work.description}</p>
                   </div>
-                  
+
                   {/* Period */}
                   <div className="flex md:justify-end">
-                    <span className="text-sm text-gray-500 font-light">
-                      {work.period}
-                    </span>
+                    <span className="text-sm text-gray-500 font-light">{work.period}</span>
                   </div>
                 </div>
               </div>
