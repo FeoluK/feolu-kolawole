@@ -20,7 +20,7 @@ export default function WorkPage() {
       type: "Research",
     },
     {
-      title: "Machine Learning and Computer Vision Researcher",
+      title: "Lead Machine Learning Researcher",
       organization: "Stanford AI Laboratory (PI - Ron Fedkiw)",
       location: "Stanford, CA",
       period: "March 2025 - Present",
