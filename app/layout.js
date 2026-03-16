@@ -4,23 +4,23 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Feolu Kolawole - Spatial Computing Engineer',
-  description: 'Feolu Kolawole - Specializing in AI, 3D systems, and Extended Reality. Building the future of human-computer interaction at Stanford University.',
-  keywords: 'Feolu Kolawole, spatial computing, AI, artificial intelligence, 3D systems, Extended Reality, XR, Stanford University, computer vision, machine learning',
+  title: 'Feolu Kolawole - ML, CV, and Spatial Computing',
+  description: 'Feolu Kolawole - Specializing in computer vision, world models, and augmented reality. Building the future of human-computer interaction at Stanford University.',
+  keywords: 'Feolu Kolawole, machine learning, computer vision, world models, augmented reality, spatial computing, AI, Stanford University, XR',
   author: 'Feolu Kolawole',
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'Feolu Kolawole - Spatial Computing Engineer',
-    description: 'Specializing in AI, 3D systems, and Extended Reality. Building the future of human-computer interaction at Stanford University.',
+    title: 'Feolu Kolawole - ML, CV, and Spatial Computing',
+    description: 'Specializing in computer vision, world models, and augmented reality. Building the future of human-computer interaction at Stanford University.',
     url: 'https://feolu-kolawole.vercel.app',
     siteName: 'Feolu Kolawole',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Feolu Kolawole - Spatial Computing Engineer',
-    description: 'Specializing in AI, 3D systems, and Extended Reality. Building the future of human-computer interaction at Stanford University.',
+    title: 'Feolu Kolawole - ML, CV, and Spatial Computing',
+    description: 'Specializing in computer vision, world models, and augmented reality. Building the future of human-computer interaction at Stanford University.',
   },
   icons: {
     icon: '/feolu-favicon.png',       // uses the file in /public

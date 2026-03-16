@@ -4,35 +4,48 @@ import Footer from '@/components/Footer'
 export default function WorkPage() {
   const currentWork = [
     {
-      title: "Software Development Engineer (Spectacles Team)",
-      organization: "Snapchat",
-      location: "Stanford, CA",
-      period: "June 2025 - Present",
+      title: "Machine Learning Researcher (Incoming)",
+      organization: "Microsoft",
+      location: "Redmond, WA",
+      period: "June 2026",
       description:
-        "Lead developer on a flagship augmented reality prototype (AR CAD) for Snapchat Spectacles, guiding a 4-person team to be awarded $20K in funding. Built the first collaborative Spectacles lens for engineers to visualize and share 3D models in real-world environments, cutting prototyping costs by ~40% and accelerating design iteration.",
+        "Researching machine learning and computer vision techniques for MRI imaging, advised by Dr. Olesya Melnichenko.",
       technologies: [
-        "Snap Lens Studio",
-        "JavaScript",
-        "Three.js",
-        "AR UX",
-        "Product Prototyping",
+        "Python",
+        "PyTorch",
+        "Computer Vision",
+        "Medical Imaging",
       ],
       type: "Research",
     },
     {
-      title: "Lead Machine Learning Researcher",
-      organization: "Stanford AI Laboratory (PI - Ron Fedkiw)",
+      title: "Machine Learning Researcher",
+      organization: "Stanford AI Laboratory (PI - Fei-Fei Li & Ehsan Adeli)",
       location: "Stanford, CA",
-      period: "March 2025 - Present",
+      period: "January 2026 - Present",
       description:
-        "Built CNN models to generate realistic 3D hair reconstructions across diverse demographics, raising accuracy to 96% and enabling deployment on lightweight devices. Developed a robust extraction pipeline with OpenCV and SAM segmentation that handles poor-quality images and achieves perfect segmentation on 98% of images.",
+        "Engineered a video-language pipeline to automatically monitor ICU patient behavior from continuous footage, enabling real-time health assessment of 2,656 critically ill patients without manual intervention.",
       technologies: [
         "Python",
         "PyTorch",
-        "OpenCV",
-        "Segment Anything (SAM)",
-        "3D Reconstruction",
-        "CNNs",
+        "Video-Language Models",
+        "Computer Vision",
+      ],
+      type: "Research",
+    },
+    {
+      title: "Machine Learning Researcher",
+      organization: "Stanford Human Perception Lab (PI - Khizer Khaderi)",
+      location: "Palo Alto, CA",
+      period: "January 2026 - Present",
+      description:
+        "Built a single model that predicts user actions from unlabeled video across 9 distinct environments, achieving 85.2% accuracy and enabling zero-shot action understanding without labeled training data.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "World Models",
+        "Inverse Dynamics",
+        "Optical Flow",
       ],
       type: "Research",
     },
@@ -57,12 +70,29 @@ export default function WorkPage() {
 
   const pastExperience = [
     {
-      title: "Software Engineer - Spatial Computing",
-      organization: "Stanford Human Perception Lab (PI - Khizer Khaderi)",
+      title: "Lead Machine Learning Researcher",
+      organization: "Stanford AI Laboratory (PI - Ron Fedkiw)",
+      location: "Stanford, CA",
+      period: "March 2025 - December 2025",
+      description:
+        "Drove development of CNN models to generate realistic 3D hair reconstructions across demographics, boosting accuracy to 96% and enabling deployment on lightweight devices. Built a highly robust extraction algorithm with OpenCV and SAM segmentation, capable of handling poor-quality images and achieving perfect segmentation on 98% of images.",
+      technologies: [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "Segment Anything (SAM)",
+        "3D Reconstruction",
+        "CNNs",
+      ],
+      type: "Research",
+    },
+    {
+      title: "Software Engineer",
+      organization: "Stanford Human Perception Lab",
       location: "Palo Alto, CA",
       period: "December 2024 - June 2025",
       description:
-        "Engineered an AR application for Snap Spectacles using Lens Studio and JavaScript, leveraging environmental testing to evaluate perception levels and enabling analysis of 92% of the available field of vision. Created a process to transform video into accurate 3D environments by integrating SLAM and point-cloud segmentation models, optimizing output by 44%.",
+        "Engineered an AR application on Snap Spectacles in collaboration with the Snapchat Prototyping Team, enabling analysis of 92% of the available field of vision. Created a process to transform video into accurate 3D environments by integrating SLAM and point-cloud segmentation models, thereby optimizing output by 44%.",
       technologies: [
         "Snap Lens Studio",
         "JavaScript",
@@ -163,7 +193,7 @@ export default function WorkPage() {
               <div className="mb-20">
                 <h1 className="text-4xl md:text-5xl font-light mb-6">Work & Experience</h1>
                 <p className="text-xl text-gray-400 max-w-2xl">
-                  Research, leadership, and professional experience in Spatial Computing, AI, and Extended Reality.
+                  Research, leadership, and professional experience in machine learning, computer vision, and spatial computing.
                 </p>
               </div>
 

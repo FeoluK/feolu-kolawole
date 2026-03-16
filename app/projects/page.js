@@ -9,6 +9,45 @@ export default function ProjectsPage() {
 
   const highlightedProjects = [
     {
+      title: 'MoSV: Mixture-of-Steering Vectors for LLM Hallucination Mitigation',
+      description:
+        'Proposed a framework that reduces LLM hallucinations by dynamically selecting from multiple learned correction vectors per prompt, improving factual accuracy by +2.4pp where prior methods gained only +0.3pp. Demonstrated that the framework automatically discovers distinct types of hallucinations without manual labeling, evaluated across 10,615 items spanning 8 knowledge domains.',
+      year: '2026',
+      role: 'NLP Research',
+      technologies: ['Python', 'PyTorch', 'LLaMA', 'Activation Steering'],
+      featured: true,
+    },
+    {
+      title: 'Power Lever: GPU-Efficient LLM Inference Gateway (Winner, Stanford Hackathon)',
+      description:
+        'Built an inference gateway that dynamically routes LLM prompts to right-sized GPU hardware across 4 tiers, reducing energy consumption by 75% on simple queries while reserving high-end GPUs for complex tasks.',
+      year: '2026',
+      role: 'Hackathon Winner',
+      technologies: ['Python', 'FastAPI', 'vLLM', 'Modal'],
+      github: 'https://github.com/kesavanramakrishnan/power-lever',
+      featured: true,
+    },
+    {
+      title: 'DYNAMO: Reinforcement Learning Portfolio Manager',
+      description:
+        'Trained a reinforcement learning agent to automatically manage a portfolio across 10 asset classes, achieving 15.76% annualized returns with a 1.44 Sharpe ratio, outperforming traditional strategies by 38-54%.',
+      year: '2026',
+      role: 'Reinforcement Learning',
+      technologies: ['Python', 'Stable-Baselines3', 'Gymnasium', 'Pandas'],
+      github: 'https://github.com/lee-dan/DYNAMO-Portfolio',
+      featured: true,
+    },
+    {
+      title: 'Eous: Embodied AR Robot Assistant (Winner, Stanford Hackathon)',
+      description:
+        'Built a hands-free AR system integrating AR glasses, a smartphone, and a Raspberry Pi robot, enabling gesture and voice control with live camera feedback — all processed on-device with no cloud dependencies.',
+      year: '2026',
+      role: 'Hackathon Winner',
+      technologies: ['Python', 'C#', 'Unity', 'Raspberry Pi', 'XR Hands'],
+      github: 'https://github.com/FeoluK/Eous',
+      featured: true,
+    },
+    {
       title: 'VR Healthcare Training Simulation (Winner, MIT Hackathon)',
       description:
         'Built a VR healthcare simulation on the Apple Vision Pro, enabling CPR and first aid training and pioneering SharePlay integration for collaborative learning with iPhone users. Showcased to The Venture Reality Fund, where the concept was acquired and carried forward.',

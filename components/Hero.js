@@ -37,11 +37,11 @@ export default function Hero() {
 
             <div className="space-y-4">
               <p className="text-xl text-gray-300">
-                AI, XR, CV, and Spatial Computing Software Engineer
+                ML, CV, and Spatial Computing
               </p>
               {/* Removed the Stanford sentence; kept a concise summary */}
               <p className="text-lg text-gray-400 max-w-2xl leading-relaxed">
-                Specializing in AI, 3D systems, and Extended Reality.
+                Specializing in computer vision, world models, and augmented reality.
               </p>
             </div>
 

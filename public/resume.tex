@@ -1,0 +1,208 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[top=0.5in, bottom=0.5in, left=0.75in, right=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage[hidelinks, colorlinks=true, urlcolor=black, bookmarks=false]{hyperref}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Section format: normal weight, uppercase, full-width rule below
+\titleformat{\section}
+  {\normalfont\normalsize}
+  {}
+  {0em}
+  {}
+  [\vspace{1pt}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+\begin{document}
+
+%----------- HEADER -----------
+\begin{center}
+  {\LARGE\textbf{Feolu Kolawole}}\\[3pt]
+  (630) 453-4248 $\cdot$ \href{mailto:flukol@stanford.edu}{flukol@stanford.edu} $\cdot$
+  \href{https://linkedin.com/in/feolu-kolawole}{linkedin.com/in/feolu-kolawole} $\cdot$
+  \href{https://feolukolawole.com}{feolukolawole.com} $\cdot$
+  \href{https://github.com/FeoluK}{github.com/FeoluK}
+\end{center}
+
+%----------- EDUCATION -----------
+\section{EDUCATION}
+
+\textbf{Stanford University} \hfill \textbf{Expected Graduation Date: June 2028}\\
+\textit{B.S. in Computer Science}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item \textbf{Coursework:} Data Structures \& Algorithms, Operating Systems, Concurrency, Linear Algebra, Multivariable
+  Calculus, Machine Learning, Computer Vision, Reinforcement Learning, Statistics, Combinatorics
+  \item \textbf{Activities/Societies}: Optiver FutureFocus (Quant), Stanford XR (VP), Stanford AI Club, Stanford Neurotech
+\end{itemize}
+
+%----------- PROFESSIONAL EXPERIENCE -----------
+\section{PROFESSIONAL EXPERIENCE}
+
+\textbf{Microsoft} \hfill \textbf{Redmond, WA}\\
+\textit{Machine Learning Researcher} \hfill \textit{Incoming Jun 2026}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Researching machine learning and computer vision techniques for MRI imaging, advised by Dr. Olesya Melnichenko.
+\end{itemize}
+
+\smallskip
+
+\textbf{Stanford Artificial Intelligence Laboratory} \hfill \textbf{Stanford, CA}\\
+\textit{Machine Learning Researcher (PI - Fei-Fei Li \& Ehsan Adeli)} \hfill \textit{Jan 2026 - Present}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Engineered a video-language pipeline to automatically monitor ICU patient behavior from continuous footage,
+  enabling real-time health assessment of \textbf{2,656} critically ill patients without manual intervention.
+\end{itemize}
+\textit{Lead Machine Learning Researcher (PI - Ron Fedkiw)} \hfill \textit{Mar 2025 - Dec 2025}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Drove development of CNN models to generate realistic 3D hair reconstructions across demographics, boosting
+  accuracy to 96\% and enabling deployment on lightweight devices.
+  \item Built a highly robust extraction algorithm with OpenCV and SAM segmentation, capable of handling
+  poor-quality images and achieving perfect segmentation on 98\% of images.
+\end{itemize}
+
+\smallskip
+
+\textbf{Stanford Human Perception Lab} \hfill \textbf{Palo Alto, CA}\\
+\textit{Machine Learning Researcher (PI - Khizer Khaderi)} \hfill \textit{Jan 2026 - Present}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Built a single model that predicts user actions from unlabeled video across \textbf{9 distinct environments},
+  achieving \textbf{85.2\%} accuracy and enabling zero-shot action understanding without labeled training data.
+\end{itemize}
+\textit{Software Engineer} \hfill \textit{Dec 2024 - Jun 2025}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Engineered an AR application on Snap Spectacles in collaboration with the Snapchat Prototyping Team,
+  enabling analysis of \textbf{92\%} of the available field of vision.
+  \item Created a process to transform video into accurate 3D environments by integrating SLAM and point-cloud
+  segmentation models, thereby optimizing output by \textbf{44\%}.
+\end{itemize}
+
+%----------- PROJECTS -----------
+\section{PROJECTS}
+
+\textbf{MoSV: Mixture-of-Steering Vectors for LLM Hallucination Mitigation} $|$ \textit{Python, PyTorch}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Proposed a framework that reduces LLM hallucinations by dynamically selecting from multiple learned
+  correction vectors per prompt, improving factual accuracy by \textbf{+2.4pp} where prior methods gained only +0.3pp.
+  \item Demonstrated that the framework automatically discovers distinct types of hallucinations without manual
+  labeling, evaluated across \textbf{10,615} items spanning \textbf{8 knowledge domains}.
+\end{itemize}
+
+\smallskip
+
+\textbf{Power Lever: GPU-Efficient LLM Inference Gateway (Winner, Stanford Hackathon)} $|$ \textit{Python}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Built an inference gateway that dynamically routes LLM prompts to right-sized GPU hardware across
+  \textbf{4 tiers}, reducing energy consumption by \textbf{75\%} on simple queries while reserving high-end GPUs for complex tasks.
+\end{itemize}
+
+\smallskip
+
+\textbf{DYNAMO: Reinforcement Learning Portfolio Manager} $|$ \textit{Python, Stable-Baselines3}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Trained a reinforcement learning agent to automatically manage a portfolio across \textbf{10 asset classes},
+  achieving \textbf{15.76\%} annualized returns with a \textbf{1.44 Sharpe ratio}, outperforming traditional strategies by \textbf{38--54\%}.
+\end{itemize}
+
+\smallskip
+
+\textbf{Eous: Embodied AR Robot Assistant (Winner, Stanford Hackathon)} $|$ \textit{Python, C\#, Unity}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Built a hands-free AR system integrating AR glasses, a smartphone, and a Raspberry Pi robot,
+  enabling gesture and voice control with live camera feedback — all processed on-device with no cloud dependencies.
+\end{itemize}
+
+\smallskip
+
+\textbf{VR Healthcare Training Simulation (Winner, MIT Hackathon)} $|$ \textit{Swift , RealityKit}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Created a VR healthcare simulation on the Apple Vision Pro, enabling CPR and first aid training and
+  pioneering SharePlay integration for collaborative learning with iPhone users.
+  \item Showcased to \textbf{The Venture Reality Fund}, where the concept was acquired and carried forward.
+\end{itemize}
+
+\smallskip
+
+\textbf{Supreme Court Case Prediction (1st Place, Stanford Class of 500)}
+\href{https://feolukolawole.com/Court_Justice_Prediction.pdf}{{\textcolor{blue}{(View Paper)}}}
+$|$ \textit{Python, Numpy}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Built a Bayesian court case prediction framework that achieved \textbf{73\% top-3 accuracy} across \textbf{11 possible
+  Supreme Court case outcomes} by leveraging observable case attributes.
+  \item Featured as a winner and future example project in Stanford's CS109 course (selected from \textbf{500 students}).
+\end{itemize}
+
+\smallskip
+
+\textbf{SynchroSound: Facial Expression Based Song Selection} $|$ \textit{Swift, API, Javascript, React, Objective-C}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Built an iOS app that deciphers facial expressions to recommend mood-matching songs, integrating SwiftUI,
+  UIKit, and SwiftData with Google Cloud Vision and Spotify's Web API.
+  \item Processed \textbf{500+ test images} across multiple emotions to validate recommendations, improving user-song mood
+  alignment \textbf{accuracy by 82\%}.
+\end{itemize}
+
+\smallskip
+
+\textbf{Heap Allocator -- Custom Computer Memory Management System} $|$ \textit{C, x86 Assembly, GDB}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Developed an algorithm that optimizes computer memory utilization (i.e. freeing up storage by \textbf{20\%} across
+  \textbf{100,000} requests).
+  \item Implemented custom malloc, realloc, and free functions in C for heap-level memory management.
+\end{itemize}
+
+\smallskip
+
+\textbf{Shell - Custom Unix Shell Implementation} $|$ \textit{C, C++, GDB, x86 Assembly}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Built a command-line Unix Shell (computer operating system) that allows key tasks like file manipulation and
+  redirection.
+  \item Enhanced the Unix Shell to run \textbf{10+ programs} at once while testing across \textbf{100+ real-world} scenarios.
+\end{itemize}
+
+\smallskip
+
+\textbf{Medical MRI Image Reconstruction}
+\href{https://feolukolawole.com/Accelerated_MRI_Reconstruction.pdf}{{\textcolor{blue}{(View Paper)}}}
+$|$ \textit{Python, Pytorch, Deep Learning}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Engineered AI-based models for medical MRI image reconstruction with PyTorch, \textbf{cutting required scan
+  times by 55--70\%} while preserving quality images, and co-authoring a research paper on the work.
+  \item Enhanced the MRI image quality beyond baseline deep learning models, \textbf{reducing reconstruction error by
+  \textasciitilde60\%} and significantly improving detail preservation.
+\end{itemize}
+
+\smallskip
+
+\textbf{AgenTeX: Image to LaTeX (Winner, AgentOps Hackathon)} $|$ \textit{Hugging Face, Python}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Engineered an AI agent with OpenAI's Agents SDK to convert handwritten math to LaTeX with 91\% accuracy.
+  \item Featured as an AgentOps hackathon winner, with board member recommendation for commercial launch.
+\end{itemize}
+
+\smallskip
+
+\textbf{Music Recommendation System}
+\href{https://feolukolawole.com/Music_Recommendation_Engine.pdf}{{\textcolor{blue}{(View Paper)}}}
+$|$ \textit{Python, SVD, Dimensionality Reduction, PCA}
+\begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=1pt, parsep=0pt]
+  \item Designed a music recommendation system using SVD and PCA to analyze over \textbf{60 audio features} from \textbf{7,000
+  Spotify songs}, uncovering patterns in sound beyond traditional metadata.
+  \item Implemented feature projection to identify similarities across \textbf{35 combinations of musical features}.
+\end{itemize}
+
+%----------- TECHNICAL SKILLS -----------
+\section{TECHNICAL SKILLS}
+
+\textbf{Programming Languages:} Python, Java, Javascript, Typescript, C, C\#,  C++, Swift, Assembly, HTML/CSS, R\\
+\textbf{Libraries/Frameworks:} Next.js, React.js, Flask, FastAPI, Node.js, Tailwind CSS, Node.js, OpenGL, Git, Linux\\
+\textbf{Software:} Github, Docker, Vim, Emacs, Pytorch, Visual Studio Code, XCode, Blender, Unity, Lens Studio, RStudio
+
+\end{document}

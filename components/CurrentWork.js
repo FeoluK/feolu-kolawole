@@ -1,28 +1,28 @@
 export default function CurrentWork() {
   const currentWork = [
     {
-      title: "Software Development Engineer (Spectacles Team)",
-      organization: "Snapchat",
+      title: "Machine Learning Researcher (Incoming)",
+      organization: "Microsoft",
       description:
-        "Lead developer on a flagship augmented reality prototype (AR CAD) for Snapchat Spectacles, guiding a 4-person team to be awarded $20K in funding. Built the first collaborative Spectacles lens for engineers to visualize and share 3D models in real-world environments, cutting prototyping costs by ~40% and accelerating design iteration.",
-      period: "June 2025 - Present",
+        "Researching machine learning and computer vision techniques for MRI imaging, advised by Dr. Olesya Melnichenko.",
+      period: "June 2026",
       type: "Research",
     },
     {
-      title: "Machine Learning and Computer Vision Researcher",
-      organization: "Stanford AI Laboratory (PI - Ron Fedkiw)",
+      title: "Machine Learning Researcher",
+      organization: "Stanford AI Laboratory (PI - Fei-Fei Li & Ehsan Adeli)",
       description:
-        "Built CNN models to generate realistic 3D hair reconstructions across diverse demographics, raising accuracy to 96% and enabling deployment on lightweight devices. Developed a robust extraction pipeline with OpenCV and SAM segmentation that handles poor-quality images and achieves perfect segmentation on 98% of images.",
-      period: "March 2025 - Present",
+        "Engineered a video-language pipeline to automatically monitor ICU patient behavior from continuous footage, enabling real-time health assessment of 2,656 critically ill patients without manual intervention.",
+      period: "January 2026 - Present",
       type: "Research",
     },
     {
-      title: "Vice President of External Affairs",
-      organization: "Stanford XR",
+      title: "Machine Learning Researcher",
+      organization: "Stanford Human Perception Lab (PI - Khizer Khaderi)",
       description:
-        "Leading strategic partnerships and external relations. Co-led successful partnerships with Meta, NVIDIA, Amazon, and Snapchat. Organized immersive technology hackathons with 300+ participants in XR and Spatial Computing.",
-      period: "September 2024 - Present",
-      type: "Leadership",
+        "Built a single model that predicts user actions from unlabeled video across 9 distinct environments, achieving 85.2% accuracy and enabling zero-shot action understanding without labeled training data.",
+      period: "January 2026 - Present",
+      type: "Research",
     },
   ]
 
@@ -52,7 +52,7 @@ export default function CurrentWork() {
               </div>
             </div>
             <p className="text-xl text-gray-400 max-w-2xl">
-              Research and leadership roles in spatial computing, AI systems, and Extended Reality.
+              Research roles in machine learning, computer vision, and spatial computing.
             </p>
           </div>
 
