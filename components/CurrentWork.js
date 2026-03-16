@@ -3,6 +3,7 @@ export default function CurrentWork() {
     {
       title: "Machine Learning Researcher (Incoming)",
       organization: "Microsoft",
+      location: "Redmond, WA",
       description:
         "Researching machine learning and computer vision techniques for MRI imaging, advised by Dr. Olesya Melnichenko.",
       period: "June 2026",
@@ -75,7 +76,7 @@ export default function CurrentWork() {
                     <div className="flex items-center gap-2 mb-4 text-gray-400">
                       <span className="font-medium">{work.organization}</span>
                       <span>•</span>
-                      <span>Stanford, CA</span>
+                      <span>{work.location || "Stanford, CA"}</span>
                     </div>
 
                     <p className="text-gray-300 leading-relaxed">{work.description}</p>
