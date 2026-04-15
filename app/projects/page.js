@@ -25,6 +25,7 @@ export default function ProjectsPage() {
       year: '2026',
       role: 'NLP Research',
       technologies: ['Python', 'PyTorch', 'LLaMA', 'Activation Steering'],
+      paper: '/MoSV_Mixture_of_Steering_Vectors.pdf',
       featured: true,
     },
     {
@@ -45,6 +46,7 @@ export default function ProjectsPage() {
       role: 'Reinforcement Learning',
       technologies: ['Python', 'Stable-Baselines3', 'Gymnasium', 'Pandas'],
       github: 'https://github.com/lee-dan/DYNAMO-Portfolio',
+      paper: '/Dynamo.pdf',
       featured: true,
     },
     {
