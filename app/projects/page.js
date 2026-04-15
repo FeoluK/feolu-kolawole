@@ -9,6 +9,16 @@ export default function ProjectsPage() {
 
   const highlightedProjects = [
     {
+      title: 'Cross-Game Semantic Alignment of Latent Action Representations in World Models',
+      description:
+        'Co-authored research showing that jointly-trained inverse dynamics models produce semantically aligned action embeddings across different game environments. Demonstrated alignment across 7 Atari games, 2 racing simulators, and 2 first-person games (Minecraft VPT and CS:GO), achieving 85.2% accuracy on movement prediction across environments without game-specific labels. Identified a "calibration gap" as the primary failure mode for camera direction prediction and proposed solutions.',
+      year: '2026',
+      role: 'World Models Research',
+      technologies: ['Python', 'PyTorch', 'World Models', 'Inverse Dynamics', 'Optical Flow', 'CNNs'],
+      paper: '/Cross-Game%20Semantic%20Alignment%20of%20Latent%20Action%20Representations%20in%20World%20Models.pdf',
+      featured: true,
+    },
+    {
       title: 'MoSV: Mixture-of-Steering Vectors for LLM Hallucination Mitigation',
       description:
         'Proposed a framework that reduces LLM hallucinations by dynamically selecting from multiple learned correction vectors per prompt, improving factual accuracy by +2.4pp where prior methods gained only +0.3pp. Demonstrated that the framework automatically discovers distinct types of hallucinations without manual labeling, evaluated across 10,615 items spanning 8 knowledge domains.',
