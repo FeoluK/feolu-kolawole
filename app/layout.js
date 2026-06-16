@@ -5,26 +5,30 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Feolu Kolawole - ML, CV, and Spatial Computing',
-  description: 'Feolu Kolawole - Specializing in computer vision, world models, and augmented reality. Building the future of human-computer interaction at Stanford University.',
-  keywords: 'Feolu Kolawole, machine learning, computer vision, world models, augmented reality, spatial computing, AI, Stanford University, XR',
+  metadataBase: new URL('https://feolu-kolawole.vercel.app'),
+  title: 'Feolu Kolawole',
+  description:
+    'Feolu Kolawole — machine learning researcher at Stanford working on computer vision, world models, and spatial computing.',
+  keywords:
+    'Feolu Kolawole, machine learning, computer vision, world models, augmented reality, spatial computing, AI, Stanford University, XR',
   author: 'Feolu Kolawole',
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'Feolu Kolawole - ML, CV, and Spatial Computing',
-    description: 'Specializing in computer vision, world models, and augmented reality. Building the future of human-computer interaction at Stanford University.',
+    title: 'Feolu Kolawole',
+    description:
+      'Machine learning researcher at Stanford working on computer vision, world models, and spatial computing.',
     url: 'https://feolu-kolawole.vercel.app',
     siteName: 'Feolu Kolawole',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Feolu Kolawole - ML, CV, and Spatial Computing',
-    description: 'Specializing in computer vision, world models, and augmented reality. Building the future of human-computer interaction at Stanford University.',
+    title: 'Feolu Kolawole',
+    description:
+      'Machine learning researcher at Stanford working on computer vision, world models, and spatial computing.',
   },
   icons: {
-    icon: '/feolu-favicon.png',       // uses the file in /public
+    icon: '/feolu-favicon.png',
     shortcut: '/feolu-favicon.png',
     apple: '/feolu-favicon.png',
   },
