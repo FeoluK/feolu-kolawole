@@ -80,10 +80,12 @@ export default function Bio() {
         <section className="mt-8 space-y-4 leading-relaxed text-[15px]">
           <p>
             I&apos;m an undergraduate at Stanford University studying computer
-            science, and a machine learning researcher at the{' '}
-            <span className="font-medium">Stanford AI Lab (SAIL)</span> and the{' '}
-            <span className="font-medium">Stanford Human Perception Lab</span>. My
-            work spans computer vision, world models, and spatial computing.
+            science and an{' '}
+            <span className="font-medium">Anthropic Research Fellow</span>. I&apos;m
+            also a machine learning researcher at the{' '}
+            <span className="font-medium">Stanford AI Lab (SAIL)</span>, and
+            previously at the{' '}
+            <span className="font-medium">Stanford Human Perception Lab</span>.
           </p>
           <p>
             I also serve as VP of External Affairs at{' '}
