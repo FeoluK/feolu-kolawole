@@ -81,8 +81,10 @@ export default function Bio() {
           <p>
             I&apos;m an undergraduate at Stanford University studying computer
             science and an{' '}
-            <span className="font-medium">Anthropic Research Fellow</span>. I was
-            previously a machine learning researcher at the{' '}
+            <span className="font-medium">Anthropic Research Fellow</span>. I&apos;m
+            also a machine learning researcher at the{' '}
+            <span className="font-medium">Stanford AI Lab (SAIL)</span>, and
+            previously at the{' '}
             <span className="font-medium">Stanford Human Perception Lab</span>.
           </p>
           <p>
