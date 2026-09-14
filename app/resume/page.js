@@ -7,13 +7,21 @@ export const metadata = {
 
 const experience = [
   {
-    date: 'Jun 2026 — Present',
+    date: 'Aug 2026 — Present',
+    location: 'Berkeley, CA',
+    org: 'Anthropic',
+    title: 'Anthropic Research Fellow · Advised by Monte MacDiarmid',
+    description:
+      'Designing specialized reinforcement learning environments to study how post-training shapes model behavior, and applying mechanistic interpretability techniques to analyze learned representations and training dynamics.',
+  },
+  {
+    date: 'Jun 2026 — Aug 2026',
     location: 'Redmond, WA',
     org: 'Microsoft Research',
     logo: '/logos/microsoft.png',
-    title: 'Machine Learning Researcher',
+    title: 'Machine Learning Researcher · Advised by Dr. Olesya Melnichenko',
     description:
-      'Computer vision for MRI imaging, advised by Dr. Olesya Melnichenko.',
+      'Trained a computer vision model that automates MRI scan calibration, and built a sequence-file visualization program that renders MRI undersampling patterns before any physical scan is run.',
   },
   {
     date: 'Jan 2026 — Present',
@@ -24,7 +32,7 @@ const experience = [
     description: '3D diffusion and long-context video understanding.',
   },
   {
-    date: 'Jan 2026 — Present',
+    date: 'Dec 2024 — May 2026',
     location: 'Palo Alto, CA',
     org: 'Stanford Human Perception Lab',
     logo: '/logos/stanford.png',

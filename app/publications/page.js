@@ -9,7 +9,7 @@ const publications = [
   {
     title:
       'Mixture-of-Steering Vectors (MoSV): Sparse Gating for Compositional Hallucination Mitigation',
-    authors: 'Vedant Srinivas, Daniel Lee, Feolu Kolawole',
+    authors: 'Daniel Lee, Feolu Kolawole, Vedant Srinivas',
     venue: 'ICML 2026 Workshop on Mechanistic Interpretability',
     year: '2026',
     summary:

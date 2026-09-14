@@ -5,7 +5,7 @@ const highlightedWork = [
   {
     title:
       'Mixture-of-Steering Vectors (MoSV): Sparse Gating for Compositional Hallucination Mitigation',
-    authors: 'Vedant Srinivas, Daniel Lee, Feolu Kolawole',
+    authors: 'Daniel Lee, Feolu Kolawole, Vedant Srinivas',
     venue: 'ICML 2026 Workshop on Mechanistic Interpretability',
     year: '2026',
     summary:
@@ -65,7 +65,8 @@ export default function Bio() {
           <div>
             <h1 className="text-3xl font-semibold tracking-tight">Feolu Kolawole</h1>
             <p className="mt-2 text-sm text-muted">
-              Microsoft · Stanford University · Stanford AI Lab (SAIL)
+              Anthropic Research Fellow · Stanford University · Stanford AI Lab (SAIL) ·
+              prev. Microsoft Research Intern
             </p>
           </div>
           <img
