@@ -10,9 +10,8 @@ const experience = [
     date: 'Aug 2026 — Present',
     location: 'Berkeley, CA',
     org: 'Anthropic',
+    logo: '/logos/anthropic.png',
     title: 'Anthropic Research Fellow · Advised by Monte MacDiarmid',
-    description:
-      'Designing specialized reinforcement learning environments to study how post-training shapes model behavior, and applying mechanistic interpretability techniques to analyze learned representations and training dynamics.',
   },
   {
     date: 'Jun 2026 — Aug 2026',

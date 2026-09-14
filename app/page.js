@@ -65,8 +65,8 @@ export default function Bio() {
           <div>
             <h1 className="text-3xl font-semibold tracking-tight">Feolu Kolawole</h1>
             <p className="mt-2 text-sm text-muted">
-              Anthropic Research Fellow · Stanford University · Stanford AI Lab (SAIL) ·
-              prev. Microsoft Research Intern
+              Anthropic Research Fellow · Stanford University · prev. Microsoft
+              Research Intern
             </p>
           </div>
           <img
@@ -81,10 +81,8 @@ export default function Bio() {
           <p>
             I&apos;m an undergraduate at Stanford University studying computer
             science and an{' '}
-            <span className="font-medium">Anthropic Research Fellow</span>. I&apos;m
-            also a machine learning researcher at the{' '}
-            <span className="font-medium">Stanford AI Lab (SAIL)</span>, and
-            previously at the{' '}
+            <span className="font-medium">Anthropic Research Fellow</span>. I was
+            previously a machine learning researcher at the{' '}
             <span className="font-medium">Stanford Human Perception Lab</span>.
           </p>
           <p>
